@@ -1,10 +1,9 @@
 # Atom Deploy 中文手册
-
+[中文](README.zh.md) | [English](README.md)
+[![GitHub stars](https://img.shields.io/github/stars/Dobot-Arm/atom-deploy?style=social)](https://github.com/Dobot-Arm/atom-deploy)
 [![OS Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04%2F22.04-orange)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-gcc%209%2B%20%7C%20clang%2012%2B-blue)](#)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-green)](#)
-
-> English version is available in [README.md](README.md).
 
 Atom Deploy 是DOBOT Atom 足式机器人在真实机器人上运行强化学习策略的部署程序。它负责：
 
