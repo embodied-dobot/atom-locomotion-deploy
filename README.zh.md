@@ -1,6 +1,5 @@
 # Atom Deploy 中文手册
 
-[![GitHub stars](https://img.shields.io/github/stars/Dobot-Arm/atom-deploy?style=social)](https://github.com/Dobot-Arm/atom-deploy)
 [![OS Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04%2F22.04-orange)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-gcc%209%2B%20%7C%20clang%2012%2B-blue)](#)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-green)](#)
