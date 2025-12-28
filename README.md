@@ -5,6 +5,8 @@
 [![Compiler](https://img.shields.io/badge/Compiler-gcc%209%2B%20%7C%20clang%2012%2B-blue)](#)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-green)](#)
 
+> 中文用户请查看 [README.zh.md](README.zh.md)。
+
 Atom Deploy is the runtime that executes reinforcement-learning policies on the DOBOT Atom legged robot. It:
 
 - synchronizes robot/base/joystick state through `Atom::Bridge`;
