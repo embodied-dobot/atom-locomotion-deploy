@@ -80,7 +80,7 @@ Most orchestration lives inside `AtomDeploy`: it bridges states, runs the FSM, p
    cd onnxruntime
    git checkout v1.19.0
    ./build.sh --config Release --build_shared_lib --parallel --allow_running_as_root
-   cd onnxruntime/build/Linux/Release/
+   cd build/Linux/Release/
    sudo make install
    ```
 
