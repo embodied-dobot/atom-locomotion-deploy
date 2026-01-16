@@ -1,6 +1,6 @@
 # Atom Deploy 中文手册
 [中文](README.zh.md) | [English](README.md)
-[![GitHub stars](https://img.shields.io/github/stars/Dobot-Arm/atom-deploy?style=social)](https://github.com/Dobot-Arm/atom-deploy)
+[![GitHub stars](https://img.shields.io/github/stars/embodied-dobot/atom-deploy?style=social)](https://github.com/embodied-dobot/atom-deploy)
 [![OS Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04%2F22.04-orange)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-gcc%209%2B%20%7C%20clang%2012%2B-blue)](#)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-green)](#)
@@ -68,8 +68,8 @@ deploy/
 
 1. **克隆本仓库**
    ```bash
-   git clone http://gitlab.dobot.com/atom-locomotion/deploy.git
-   cd deploy
+   git clone https://github.com/embodied-dobot/atom-deploy
+   cd atom-deploy
    ```
 
 2. **安装 ONNX Runtime（源码方式）**
@@ -128,6 +128,7 @@ deploy/
 
 1. **配置构建目录**
    ```bash
+   cd atom-deploy
    mkdir -p build && cd build
    cmake .. \
      -DCMAKE_BUILD_TYPE=Release \
