@@ -1,6 +1,6 @@
 # Atom Deploy
 [English](README.md) | [中文](README.zh.md)
-[![GitHub stars](https://img.shields.io/github/stars/embodied-dobot/atom-deploy?style=social)](https://github.com/embodied-dobot/atom-deploy)
+[![GitHub stars](https://img.shields.io/github/stars/embodied-dobot/atom-locomotion-deploy?style=social)](https://github.com/embodied-dobot/atom-locomotion-deploy)
 [![OS Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2020.04%2F22.04-orange)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-gcc%209%2B%20%7C%20clang%2012%2B-blue)](#)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-green)](#)
@@ -32,7 +32,7 @@ Atom Deploy is the runtime that executes reinforcement-learning policies on the 
 ## Project Layout
 
 ```
-deploy/
+atom-locomotion-deploy/
 ├── CMakeLists.txt           # Build script and dependency wiring
 ├── README.md                # English manual (this file)
 ├── README.zh.md             # Chinese manual
@@ -70,8 +70,8 @@ Most orchestration lives inside `AtomDeploy`: it bridges states, runs the FSM, p
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/embodied-dobot/atom-deploy
-   cd atom-deploy
+   git clone https://github.com/embodied-dobot/atom-locomotion-deploy.git
+   cd atom-locomotion-deploy
    ```
 
 2. **Build ONNX Runtime from source**
@@ -130,7 +130,7 @@ To swap policies, drop the new `*.onnx` under `policy/model/` and update `model_
 
 1. **Configure**
    ```bash
-   cd atom-deploy
+   cd atom-locomotion-deploy
    mkdir -p build && cd build
    cmake .. \
      -DCMAKE_BUILD_TYPE=Release \
